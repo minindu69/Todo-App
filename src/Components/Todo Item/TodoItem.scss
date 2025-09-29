@@ -1,0 +1,43 @@
+.todo__item--outer {
+  // background-color: yellow;
+  width: 100%;
+
+  .todo__item--inner {
+    width: 100%;
+    max-width: 800px;
+    // background-color: rgb(0, 255, 60);
+    border-radius: 8px;
+    border-bottom: 1px solid rgba(229, 173, 255, 0.258);
+
+    .todo__txt {
+      .todo__num {
+        color: rgba(243, 69, 255, 0.885);
+      }
+
+      .todo {
+        letter-spacing: 1.5px;
+
+        .input-base {
+          color: rgb(217, 0, 255);
+        }
+
+        .input-edit {
+          // color: rgb(68, 0, 255);
+          border: none;
+          // border-bottom: 2px solid yellow;
+          outline: none;
+          background: transparent;
+        }
+
+        .input-edit:focus {
+          // border-bottom: 2px solid orange;
+        }
+      }
+    }
+  }
+}
+
+.check__icon:hover {
+  color: rgb(77, 202, 0);
+}
+

@@ -1,0 +1,73 @@
+.todo__list {
+
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  // background-color: rgb(255, 153, 0);
+
+  .header {
+    //header styles
+  }
+
+  .gradient-text {
+    background: linear-gradient(
+      to bottom right,
+      white,
+      #ff84de,
+      #7400aa,
+      #bb00ff
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "SUSE Mono", sans-serif;
+    color: transparent;
+    // font-family: "Ubuntu", sans-serif;
+    // font-family: "Poppins", sans-serif;
+    // font-family: "Manrope", sans-serif;
+    // font-family: "Unica One", sans-serif;
+    // font-family: "Roboto", sans-serif;
+  }
+
+  .todo__input {
+    // background-color: rgb(64, 255, 0);
+  }
+
+  .todo_section {
+    width: 100%;
+    height: max-content;
+    // background-color: red;
+    flex: 1;
+    // margin-top: 20px;
+    min-height: max-content;
+    padding-bottom: 20px;
+
+    .todo__item {
+      // background-color: rgb(116, 116, 116);
+      width: 100%;
+      height: 100%;
+    }
+
+    .todo__background {
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      // z-index: -1000;
+
+      /* in index.css or globals.css */
+      @keyframes slow-spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .animate-slow-spin {
+        animation: slow-spin 8s linear infinite; /* 8s per rotation */
+      }
+
+    }
+  }
+
+  
+}
