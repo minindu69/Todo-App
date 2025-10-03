@@ -36,11 +36,13 @@ function TodoList() {
         </div>
 
         {/* background logos */}
-        <div className="todo__background absolute -z-10">
+        <div className="todo__background absolute">
           <div className="flex justify-center items-center gap-4">
             {/* <img src={reactLogo} alt="" srcset="" className="react__icon h-6 w-6" /> */}
             <ReactLogo className="h-20 w-20 text-blue-500 animate-slow-spin opacity-20" />
-            <h1 class="text-[#aeaeae] text-4xl opacity-20 select-none">+</h1>
+            <h1 className="text-[#aeaeae] text-4xl opacity-20 select-none">
+              +
+            </h1>
             <ViteLogo className="h-20 w-20 text-blue-500 animate-pulse opacity-20" />
           </div>
         </div>

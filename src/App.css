@@ -1,5 +1,6 @@
 .app{
     /* background-color: blueviolet; */
+    /* z-index: 1000 !important; */
 }
 
 .todo__list{
