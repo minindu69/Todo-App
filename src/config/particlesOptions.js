@@ -10,7 +10,7 @@ export const particlesOptions = {
   interactivity: {
     events: {
       onClick: {
-        enable: true,
+        enable: false,
         mode: "push", // adds particles on click
       },
       onHover: {
